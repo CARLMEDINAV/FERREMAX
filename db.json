@@ -1,0 +1,53 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Taladro Somix",
+        "descripcion": "Taladro de alto rendimiento para uso profesional.",
+        "precio": "$12.000"
+      },
+      {
+        "id": 2,
+        "nombre": "Martillo Tapix",
+        "descripcion": "Martillo resistente ideal para construcción.",
+        "precio": "$12.000"
+      },
+      {
+        "id": 3,
+        "nombre": "Casco de seguridad",
+        "descripcion": "Casco de seguridad para protección en obras.",
+        "precio": "$12.000"
+      },
+      {
+        "id": 4,
+        "nombre": "Guantes de seguridad",
+        "descripcion": "Guantes de alta resistencia para trabajos pesados.",
+        "precio": "$12.000"
+      },
+      {
+        "id": 5,
+        "nombre": "Destornillador",
+        "descripcion": "Destornillador ergonómico para fácil uso.",
+        "precio": "$12.000"
+      },
+      {
+        "id": 6,
+        "nombre": "Alicate",
+        "descripcion": "Alicate multifuncional con gran agarre.",
+        "precio": "$12.000"
+      },
+      {
+        "id": 7,
+        "nombre": "Clavos de Metal",
+        "descripcion": "Clavos de metal para construcción.",
+        "precio": "$12.000"
+      },
+      {
+        "id": 8,
+        "nombre": "Huincha de 2MTS",
+        "descripcion": "Huincha métrica de 2 metros para mediciones precisas.",
+        "precio": "$12.000"
+      }
+    ]
+  }
+  

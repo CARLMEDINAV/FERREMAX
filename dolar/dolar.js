@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('/dolar/dolar.json') // Asegúrate de que esta ruta sea correcta
+    fetch('/dolar/dolar.json')
         .then(response => response.json())
         .then(data => {
             const valorDolar = parseFloat(data.valor);
