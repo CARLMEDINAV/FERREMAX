@@ -11,7 +11,7 @@ def obtener_dolar():
             nombres=["Dólar Observado"],
             desde=datetime.now().strftime("%Y-%m-%d"),
             hasta=datetime.now().strftime("%Y-%m-%d"),
-            frecuencia="D",
+            frecuencia="m",
             observado={"Dólar Observado": "last"}
         )
         df = pd.DataFrame(datos)
