@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Ferremas</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Ferremas</h1>
+        <div class="dolar-info">
+            <span>Dólar hoy: </span>
+            <strong id="valor-dolar">$0.00</strong>
+            <small>(Actualizado: <span id="fecha-actualizacion">--/--/----</span>)</small>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/" class="active">Inicio</a></li>
+                <li><a href="/productos">Productos</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+                <li class="dropdown">
+                    <a href="#">Categoría</a>
+                    <ul class="submenu">
+                        <li><a href="/productos?categoria=herramientas">Herramientas Manuales</a></li>
+                        <li><a href="/productos?categoria=electricidad">Materiales Básicos</a></li>
+                        <li><a href="/productos?categoria=seguridad">Equipo De Seguridad</a></li>
+                        <li><a href="/productos?categoria=construccion">Otros</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="productos">
+            <h2>Productos Destacados</h2>
+            <div class="productos-grid">
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <img src="/img/TALADRO.jpg" alt="Taladro Somix" loading="lazy">
+                    <h3>Taladro Somix</h3>
+                    <p class="precio-usd">USD 230.00</p>
+                    <p class="precio-clp">$<span class="valor-convertido"></span> CLP</p>
+                    <button>Ver más</button>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <img src="/img/alicate.jpg" alt="Alicate" loading="lazy">
+                    <h3>Alicate</h3>
+                    <p class="precio-usd">USD 29.99</p>
+                    <p class="precio-clp">$<span class="valor-convertido"></span> CLP</p>
+                    <button>Ver más</button>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <img src="/img/destonillador.avif" alt="destonillador" loading="lazy">
+                    <h3>Destonillador</h3>
+                    <p class="precio-usd">USD 25.00</p>
+                    <p class="precio-clp">$<span class="valor-convertido"></span> CLP</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="/img/clavo.jpg" alt="clavo" loading="lazy">
+                    <h3>Clavo</h3>
+                    <p class="precio-usd">USD 15.00</p>
+                    <p class="precio-clp">$<span class="valor-convertido"></span> CLP</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="/img/casco.webp" alt="casco" loading="lazy">
+                    <h3>Casco De Seguridad</h3>
+                    <p class="precio-usd">USD 35.00</p>
+                    <p class="precio-clp">$<span class="valor-convertido"></span> CLP</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="/img/guantes.webp" alt="guantes" loading="lazy">
+                    <h3>Guantes De Seguridad</h3>
+                    <p class="precio-usd">USD 5.00</p>
+                    <p class="precio-clp">$<span class="valor-convertido"></span> CLP</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ferremas. Todos los derechos reservados.</p>
+    </footer>
+    <script src="/dolar/dolar.js"></script>
+</body>
+</html>
